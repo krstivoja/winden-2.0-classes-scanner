@@ -24,7 +24,7 @@ Same is for plugins
 or ```plugins/YOURPLUGINS/src/```
 
 
-
+Plugin will scan all files without restrictions of file types
 
 
 

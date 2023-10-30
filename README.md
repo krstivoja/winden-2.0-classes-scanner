@@ -23,6 +23,15 @@ Same is for plugins
 ```plugins/YOURPLUGINS/```
 or ```plugins/YOURPLUGINS/src/```
 
+```
+.
+├── block-tree.html
+└── src
+    ├── block-one
+    │   └── block-one.html
+    └── block-two
+        └── block-two.html
+```
 
 Plugin will scan all files without restrictions of file types
 

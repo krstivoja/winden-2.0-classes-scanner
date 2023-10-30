@@ -33,7 +33,7 @@ class Winden_Classes_Scanner
      */
     public function add_admin_menu()
     {
-        add_submenu_page('tools.php', 'Winden Class Extractor', 'Class Extractor', 'manage_options', 'class-extractor', array($this, 'render_admin_page'));
+        add_submenu_page('tools.php', 'Winden Class Extractor', 'Winden Class Extractor', 'manage_options', 'class-extractor', array($this, 'render_admin_page'));
     }
 
     /**
@@ -143,6 +143,22 @@ class Winden_Classes_Scanner
 
         return $content;
     }
+
+    /**
+     * Add settings link on plugins page.
+     *
+     * @param array $links Array of default plugin action links.
+     * @return array Array of plugin action links.
+     */
+    public function add_settings_link($links)
+    {
+        $settings_link = '<a href="' . admin_url('tools.php?page=class-extractor') . '">' . __('Settings', 'dplugins-winden-classes-scanner') . '</a>';
+        array_unshift($links, $settings_link);
+        return $links;
+    }
+
+
 }
 
-new Winden_Classes_Scanner();
+$winden_classes_scanner = new Winden_Classes_Scanner();
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), array($winden_classes_scanner, 'add_settings_link'));

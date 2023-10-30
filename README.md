@@ -1,4 +1,4 @@
-# winden-classes-scanner
+# Winden's Classes Scanner
 
 This is small add on for the Winden that will scan all the files based on added path. 
 

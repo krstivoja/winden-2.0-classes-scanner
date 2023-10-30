@@ -4,4 +4,27 @@ This is small add on for the Winden that will scan all the files based on added 
 
 This is perfect for scaning theme files. 
 
-![Alt text](/extractor.png "a title")
+![Alt text](/plugins.png "a title")
+
+![Alt text](/settings.png "a title")
+
+## Scaning Instructions 
+
+If you want to scan entire theme folder: 
+
+themes/YOURTHEME/
+
+If you want to scan specific theme folder with subfolders for example /src/: 
+
+themes/YOURTHEME/src/
+
+Same is for plugins
+
+plugins/YOURPLUGINS/
+or plugins/YOURPLUGINS/src/
+
+
+
+
+
+

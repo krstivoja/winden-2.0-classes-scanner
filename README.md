@@ -12,16 +12,16 @@ This is perfect for scaning theme files.
 
 If you want to scan entire theme folder: 
 
-themes/YOURTHEME/
+```themes/YOURTHEME/```
 
 If you want to scan specific theme folder with subfolders for example /src/: 
 
-themes/YOURTHEME/src/
+```themes/YOURTHEME/src/```
 
 Same is for plugins
 
-plugins/YOURPLUGINS/
-or plugins/YOURPLUGINS/src/
+```plugins/YOURPLUGINS/```
+or ```plugins/YOURPLUGINS/src/```
 
 
 

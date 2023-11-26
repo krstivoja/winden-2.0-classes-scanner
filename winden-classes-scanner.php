@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:       Winden's Classes Scanner
+ * Plugin Name:       Winden's 2.0 Classes Scanner
  * Description:       Scan files to create safe list of classes
  * Requires at least: 6.1
  * Requires PHP:      7.0
